@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Base de sass para futuros proyecto",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss/main.scss css/style.css ",
+    "watch:css": "onchange scss/ -- npm run css"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "ingridj",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "onchange": "^6.0.0"
+  }
+}
